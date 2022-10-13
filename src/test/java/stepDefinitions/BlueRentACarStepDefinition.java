@@ -21,12 +21,12 @@ public class BlueRentACarStepDefinition {
 
     @Then("Login yazisina tiklar")
     public void loginYazisinaTiklar() {
-        brc.login.click();
+        brc.loginYazisi.click();
     }
 
     @And("gecersiz username girer")
     public void gecersizUsernameGirer() {
-        brc.email.sendKeys("gecersiz@gmail.com");
+        brc.emailTextBox.sendKeys("gecersiz@gmail.com");
     }
 
     @And("gecersiz password girer")
@@ -42,7 +42,7 @@ public class BlueRentACarStepDefinition {
 
     @Then("sayfaya giris yapilamadigini kontrol eder")
     public void sayfayaGirisYapilamadiginiKontrolEder() {
-        Assert.assertTrue(brc.ikinciLogin.isDisplayed());
+        Assert.assertTrue(brc.ikinciLoginYazisi.isDisplayed());
 
     }
 
