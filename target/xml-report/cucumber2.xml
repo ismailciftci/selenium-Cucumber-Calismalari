@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.96">
-    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="30.272">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.642">
+    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="21.351">
         <system-out>
             <![CDATA[Given kullanici "webUrl" ana sayfasinda.....................................passed
 Then kullanici Login Portala kadar asagi iner...............................passed
 And kullanici Login Portala tiklar..........................................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici diger windowa gecer...........................................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici "username" kutusuna bilgileri girer...........................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici "password" bolumune bilgileri girer...........................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici login butonuna basar..........................................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici Ok diyerek Popup'i kapatir....................................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici ilk sayfaya geri doner........................................passed
-And kullanici 2 saniye bekler...............................................passed
 And kullanici ilk sayfaya donuldugunu test eder.............................passed
-And kullanici 2 saniye bekler...............................................passed
 And sayfayi kapatir.........................................................passed
 ]]>
         </system-out>
