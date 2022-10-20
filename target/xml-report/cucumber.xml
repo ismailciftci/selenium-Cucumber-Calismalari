@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.43">
-    <testcase classname="Form doldurma" name="Practice form doldurma" time="9.784">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.305">
+    <testcase classname="medunna login negative test" name="Negative login test" time="25.601">
         <system-out>
-            <![CDATA[Given Kullanici "https://testpages.herokuapp.com/styled/basic-html-form-test.html" adresine gider.passed
-When username "kullanici adi" password "sifre" ve textarea "metin alani" kisimlarini doldurur.passed
-And bir dosya yukler........................................................passed
-And checkbox1 i secer.......................................................passed
-And radio2 yi secer.........................................................passed
-And selection item3 secer...................................................passed
-And dropdown itmem4 secer...................................................passed
-And submite tiklar..........................................................passed
-Then dosyanin yuklendigini dogrular.........................................passed
+            <![CDATA[Given kullanici "https://medunna.com/" sayfasina gider......................passed
+When login olmak icin signin e tiklar.......................................passed
+And username icin "username" kullanici adini gonderir.......................passed
+And password icin "password" parolasini gonderir............................passed
+And signine tiklar..........................................................passed
+Then Authentication information not correct uyarisini dogrular..............passed
 ]]>
         </system-out>
     </testcase>
