@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.305">
-    <testcase classname="medunna login negative test" name="Negative login test" time="25.601">
-        <system-out>
-            <![CDATA[Given kullanici "https://medunna.com/" sayfasina gider......................passed
-When login olmak icin signin e tiklar.......................................passed
-And username icin "username" kullanici adini gonderir.......................passed
-And password icin "password" parolasini gonderir............................passed
-And signine tiklar..........................................................passed
-Then Authentication information not correct uyarisini dogrular..............passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.865">
+    <testcase classname="app_title_verification" name="TC01_title_on_chrome" time="0.07">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given user is on the application_url "https://www.bluerentalcars.com/"......undefined
+Then verify the page title is "Blue Rental Cars | Cheap, Hygienic, VIP Car Hire".skipped
+Then close the remote driver................................................skipped
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
