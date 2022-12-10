@@ -21,8 +21,7 @@ public class BrcPage {
     @FindBy (xpath = " //button[@class='btn btn-primary']")
     public WebElement ikinciLoginYazisi;
 
-    @FindBy (xpath = "//*[text()='John Walker']")
-    public WebElement jhonWalkerYazisi;
+
 
 
 

@@ -9,6 +9,6 @@ Feature: app_title_verification
 
    @grid_edge
   Scenario: TC01_title_on_edge
-    Given user is on the application_url with firefox "https://www.bluerentalcars.com/"
+    Given user is on the application_url with edge "https://www.bluerentalcars.com/"
     Then verify the page title is "Blue Rental Cars | Cheap, Hygienic, VIP Car Hire"
     Then close the remote driver

@@ -41,7 +41,7 @@ public class GridStepDefs {
 
     }
 
-    @Given("user is on the application_url with firefox {string}")
+    @Given("user is on the application_url with edge {string}")
     public void userIsOnTheApplication_urlWithFirefox(String url) throws MalformedURLException {
         driver=new RemoteWebDriver(new URL("http://192.168.1.9:4444"), new EdgeOptions());
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -49,6 +49,7 @@ public class GridStepDefs {
         driver.get(url);
 
     }
+
 
 
 }
